@@ -1,36 +1,290 @@
-<!DOCTYPE html> 
- <head>
-    <meta charset="UTF-8">
-    <title>Main 
+(principala.html)
+<!DOCTYPE html>
 <html>
-page</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+  <head>
+    <meta charset="UTF-8">
+    <title>Main page</title>
+    <link rel="stylesheet" href="style1.css" type="text/css">
   </head>
   <body style = "font-family: 'Courier New'">
+      <img src = "CPP logo.png" alt ="sigla" height = "50" width = "50"/>
       <nav>
           <a href = "consiliere.html">Consiliere</a>
           <a href = "spectacole.html">Timp liber</a>
           <a href = "job.html">Oferte job-uri</a>
           <a href = "contact.html">Contact</a>
       </nav>
-      <nav2>
-          <img src = "CPP logo.png" alt ="sigla" heigth = "200" width = "200"/>
-      </nav2>
       <h1>Home page</h1>
-      <p style = "font-family: 'Courier New'"; font-size = 40px;>
+      <h4 style = "font-family: 'Courier New'"; font-size = 40px;>
         <br>
-        Cauți un job, un spectacol sau un psihoterapeut bun?</p>
-      <p>Ai venit unde trebuie!</p> 
+        <br>
+        <br>
+        Cauți un job, un spectacol sau un psihoterapeut bun?
+        <br>
+        Ai venit unde trebuie!
+        <br>
+        <br>
+        <br>
+        <br>
+      </h4> 
         <hr>
         <hr>
-        <br>
-        <p><a href = "job.html">Anunțuri pentru locuri de muncă în Brașov.</a> <br></p>
-        <p><a href = "consiliere.html">Apelează unul dintre specialiștii colaboratori.</a><br></p>
-        <p><a href = "spectacole.html">Cele mai noi spectacole online.</a> <br></p>
+        <p>→ <a href = "job.html">Anunțuri pentru locuri de muncă în Brașov și nu numai.</a> <br></p>
+        <p>→ <a href = "consiliere.html">Apelează unul dintre specialiștii terapeuți colaboratori.</a><br></p>
+        <p>→ <a href = "spectacole.html">Cele mai noi spectacole online.</a> <br></p>
         <br>
         <br>
       <footer>
-         <p>Lasă-ne un mesaj: <a href="mailto:firmanoastra@example.com">firmanoastra@example.com</a></p>     
+         <hr>
+         <p>Lasă-ne un mesaj: <a href="mailto:capetepatrateperfecte@gmail.com">capetepatrateperfecte@gmail.com</a></p>     
       </footer>
   </body>
+_____________________________________________________________________________________________________________________________________________________
+
+(job.html)
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Firma noastra de consiliere</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body style = "font-family: 'Courier New'">
+    <img src = "CPP logo.png" alt ="sigla" height = "50" width = "50"/>
+    <nav>
+      <a href = "principala.html">Home page</a>
+      <a href = "consiliere.html">Consiliere</a>
+      <a href = "spectacole.html">Timp liber</a>
+      <a href = "contact.html">Contact</a>
+    </nav> 
+    <h1>Job-ul ideal pentru tine</h1>
+    <hr>
+    <h3>Știm că e dificil să pierzi un job pe care îl considerai cu adevărat stabil.</h3> 
+    <h3>De aceea, îți punem la dispoziție un browser rapid pentru job-ul la care tânjești.</h3>
+    <br>
+    <p>◦<a href = "https://www.ejobs.ro/user/locuri-de-munca/business-development-manager/1384359">Business Development Manager</a></p>
+    <p>◦<a href = "https://www.ejobs.ro/user/locuri-de-munca/full-stack-js-developer-node-vue-remote-work-accepted/1384356">Full stack JS developer</a></p>
+    <p>◦<a href = "https://www.ejobs.ro/user/locuri-de-munca/social-media-specialist-entry-level/1383215">Social Meida Specialist</a> (două posturi)</p> 
+    <p>◦<a href = "https://www.ejobs.ro/user/locuri-de-munca/medic-tehnician-veterinar/1382825">Tehnician Veterinar</a></p>
+    <p>◦<a href = "https://www.ejobs.ro/user/locuri-de-munca/greek-speaking-call-center/1383251">Greek Speaking Call-Center</a></p>
+    <p>◦<a href = "https://www.ejobs.ro/user/locuri-de-munca/director-comercial/1381699">Director Comercial</a></p>
+    <p>◦<a href = "https://www.bestjobs.eu/ro/loc-de-munca/unity-developer-6?rid=6277025a-c6ea-422e-b28a-0eb9418d0828&st=ch&pos=2&list=20">Game Developer</a></p>
+    <p>◦<a href = "https://ro.jooble.org/jdp/-4527308039834622452/Arhitect-Bra%C5%9Fov?ckey=arhitect-&rgn=4081&pos=3&elckey=8196285081315300912&p=1&sid=-4783314320993485922&age=227&relb=100&brelb=100&bscr=44199.5666294384&scr=44199.5666294384&iid=4498441357420658533">Arhitect</a></p>
+    <p>◦<a href = "https://ro.jooble.org/jdp/9015536422341154118/Traduc%C4%83tori-%C8%99i-interpre%C8%9Bi-rom%C3%A2ni-Bra%C5%9Fov?ckey=traducator-engleza&rgn=4081&pos=2&elckey=-3901625351995458600&p=1&sid=-2840303734571629961&age=35&relb=100&brelb=100&bscr=39566.140891784&scr=39566.140891784&iid=2490898934015466158">Traducător</a></p>
+    <p>◦<a href = "https://www.vestigo.ro/angajari-detectivi-particulari/">Detectiv</a></p>
+    <br>
+    <p>Mai multe job-uri vor fi publicate...</p>
+    <footer>
+        <hr>
+        <p>Lasă-ne un mesaj: <a href="mailto:capetepatrateperfecte@gmail.com">capetepatrateperfecte@gmail.com</a></p>
+    </footer>
+    <img src = "lupa.png" alt = "lupa" height = "250" width = "250"/>
+    <img src = "lupa.png" alt = "lupa" height = "250" width = "250"/>
+    <img src = "lupa.png" alt = "lupa" height = "250" width = "250"/>
+    <img src = "lupa.png" alt = "lupa" height = "250" width = "250"/>
+    <img src = "lupa.png" alt = "lupa" height = "250" width = "250"/>
+  </body>
+</html>
+__________________________________________________________________________________________________________________________________________________________________
+
+(spectacole.html)
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Capete patrate perfecte</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body style = "font-family: 'Courier New'">
+    <img src = "CPP logo.png" alt ="sigla" height = "50" width = "50"/>
+    <nav>
+        <a href = "principala.html">Home page</a>
+        <a href = "consiliere.html">Consiliere</a>
+        <a href = "job.html">Oferte job-uri</a>
+        <a href = "contact.html">Contact</a>
+    </nav>
+      <h1>Timp liber</h1>
+      <h3>Aici găsești ultimele spectacole online:</h3>
+      <h5>Teatru: </h5>
+      <p>◦<a href = "https://www.teatrulsicaalexandrescu.ro/ea_si_numai_ea/">"Ea și numai ea"-Teatrul 'Sică Alexandrescu', Brașov</a></p>
+      <p>◦<a href = "https://www.teatrulsicaalexandrescu.ro/iluzii/">"Iluzii"-Teatrul 'Sică Alexandrescu', Brașov</a></p>
+      <p>◦<a href = "https://www.teatrulsicaalexandrescu.ro/moartea-accidentala-a-unui-anarhist/">"Moartea accidentală a unui anarhist"-Teatrul 'Sică Alexandrescu', Brașov</a></p>
+      <p>◦<a href = "https://www.teatrulsicaalexandrescu.ro/fanteziile/">"Fanteziile sexuale ale soţului meu aproape că m-au înnebunit"-Teatrul 'Sică Alexandrescu', Brașov</a></p>
+      <p>◦<a href = "https://www.teatrulsicaalexandrescu.ro/electronic_city/">"Electronic city"-Teatrul 'Sică Alexandrescu', Brașov</a></p>
+      <hr>
+      <h5>Muzică: </h5> 
+      <p>◦<a href = "https://www.iabilet.ro/bilete-vama-deschide-vama-la-apus-si-rasarit-62633/?utm_source=HpTopWeb">VAMA live din Vamă</a></p>
+      <p>◦<a href = "https://www.iabilet.ro/bilete-concert-online-walter-ghicolescu-62631/?utm_source=HpRecomandariWeb">Walter Ghicolescu - concert online</a></p>
+      <hr>
+      <h5>Alte evenimente: </h5> 
+      <hr>
+      <p>◦<a href = "https://www.iabilet.ro/bilete-luna-amara-tapinarii-liveinthegarden-62441/">Țapinarii și Luna Amară în București</a></p>
+      <br>
+      <p>Mai multe spectacole vor fi încărcate mai târziu. Distracție faină!</p>
+      <footer>
+        <hr>
+        <p>Lasă-ne un mesaj: <a href="mailto:capetepatrateperfecte@gmail.com">capetepatrateperfecte@gmail.com</a></p>
+        <img src = "teatru.jpg" alt = "teatru" height = "250" width = "400"/>
+        <img src = "teatru.jpg" alt = "teatru" height = "250" width = "400"/>
+        <img src = "teatru.jpg" alt = "teatru" height = "250" width = "400"/>
+    </footer>
+    
+  </body>
+ ________________________________________________________________________________________________________________________________________________________________________
+
+(consiliere.html)
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Firma noastra de consiliere</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body style = "font-family: 'Courier New'">
+    <img src = "CPP logo.png" alt ="sigla" height = "50" width = "50"/>
+    <nav>
+      <a href = "principala.html">Home page</a>
+      <a href = "spectacole.html">Timp liber</a>
+      <a href = "job.html">Oferte job-uri</a>
+      <a href = "contact.html">Contact</a>
+  </nav>
+    <h1>Consiliere</h1>
+    <h3>Noi credem că un pas important în regăsirea echilibrului emoțional și psihologic îl reprezintă terapia. Punem la dispoziția ta o oră gratuită de psihoterapie.</h3>
+    <br>
+    <p>Vorbește cu unul dintre consilierii noștri: </p>
+    <p>◦Alin Dumitrașcu: <a href = "mailto:alin__dumi@gmail.com">alin__dumi@gmail.com</a>, +40723982321</p>
+    <p>◦Ana Barbu: <a href = "mailto:barbuana78@yahho.com">barbuana78@yahoo.com</a>, +40732805923</p>
+    <p>◦Dana Vartolomei: <a href = "mailto:vartolomei.daniel@gmail.com">vartolomei.daniela@gmail.com</a>, +40729698234</p>
+    <p>◦Matei Paul Cristea: <a href = "mailto:mati89@gmail.com"> mati89@gmail.com</a>, +40723620934</p>
+  <footer>
+      <hr>
+      <p>Lasă-ne un mesaj: <a href="mailto:capetepatrateperfecte@gmail.com">capetepatrateperfecte@gmail.com</a></p>
+      <img src = "psihoterapie.jpg" alt = "terapie" width = "300" height = "250"/>
+      <img src = "psihoterapie.jpg" alt = "terapie" width = "300" height = "250"/>
+      <img src = "psihoterapie.jpg" alt = "terapie" width = "300" height = "250"/>
+      <img src = "psihoterapie.jpg" alt = "terapie" width = "300" height = "250"/>
+  </footer>
+  </body>
+</html>
+___________________________________________________________________________________________________________________________________________________________________--
+
+(contact.html)
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body style = "font-family: 'Courier New'">
+    <img src = "CPP logo.png" alt ="sigla" height = "50" width = "50"/>
+    <nav>
+        <a href = "principala.html">Home page</a>
+        <a href = "spectacole.html">Timp liber</a>
+        <a href = "job.html">Oferte job-uri</a>
+        <a href = "contact.html">Contact</a>
+    </nav>
+      <h1>Contact</h1>
+      <br>
+      <br>
+      <h3>Pentru întrebări, nelămuriri sau programări, scrieți-ne la adresa: <a href="mailto:capetepatrateperfecte@gmail.com">capetepatrateperfecte@gmail.com</a></h3> 
+      <img class = "centru" src = "CPP logo.png" alt ="sigla" height = "500" width = "550"/>
+        
+  </body>
+__________________________________________________________________________________________________________________________________________________________________________
+
+(style.css)
+nav { 
+    text-align:right;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    padding-left : 20 px;
+    padding-right : 20px;
+    margin-bottom: 30px;
+}
+ 
+body {
+    background-color: beige;
+    font-style: italic;
+}
+ 
+h1 { 
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+ 
+h4 {
+    text-indent: 25px;
+    background-color: black;
+    color: white;
+}
+ 
+h5 {
+    font-size: 40;
+    font-weight: bold;
+}
+ 
+footer {
+    text-align : right;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    padding-right : 25px;
+    padding-left : 25px;
+    margin-top : 30px;
+}
+ 
+.centru {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+__________________________________________________________________________________________________________________________________________________________________________
+
+(style1.css)
+nav { 
+    text-align:right;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    padding-left : 20 px;
+    padding-right : 20px;
+    margin-bottom: 30px;
+}
+ 
+body {
+    background-image: url("website.jpg");
+    align-items: auto;
+    background-color: beige;
+    font-style: italic;
+}
+ 
+h1 { 
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+ 
+h4 {
+    text-indent: 25px;
+    background-color: black;
+    color: white;
+}
+ 
+h5 {
+    font-size: 40;
+    font-weight: bold;
+}
+ 
+footer {
+    text-align : right;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    padding-right : 25px;
+    padding-left : 25px;
+    margin-top : 30px;
+}
+ 
+a{
+    color: white;
+}
+
+
 
